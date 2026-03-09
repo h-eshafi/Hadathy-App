@@ -89,7 +89,7 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Hadathy-App/">
           <Routes>
             {/* Public routes */}
             <Route path="/" element={<LandingPage />} />
